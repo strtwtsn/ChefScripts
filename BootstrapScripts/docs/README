@@ -1,0 +1,5 @@
+You can use these scripts when Bootstrapping your Chef Clients from your Chef Server.
+
+Bootstrap your client using the following command:-
+
+sudo knife bootstrap <Host> -x <User> -i <Key File> --template-file <location of your ruby install scripts> --sudo
